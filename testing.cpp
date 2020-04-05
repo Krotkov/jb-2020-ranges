@@ -17,6 +17,9 @@ inline int64_t stupidDistance(Point *points, const size_t numSize) {
     return ans;
 }
 
+
+// This function makes stress test of program. And prints (ok) if test passed.
+// Else it prints (error) ans prints what was the test
 int main() {
     std::srand(time(nullptr));
     auto points = std::make_unique<Point[]>(2000);
